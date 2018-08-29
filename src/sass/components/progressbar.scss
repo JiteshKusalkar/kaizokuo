@@ -1,0 +1,16 @@
+.k {
+    &-progress {
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 1px;
+        border: 1px solid;
+
+        &-meter {
+            position: relative;
+            display: block;
+            width: 0%;
+            height: 100%;
+            border-radius: 4px;
+        }
+    }
+}

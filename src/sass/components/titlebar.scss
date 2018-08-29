@@ -1,0 +1,35 @@
+.k {
+    &-title-bar {
+        padding: 5px 20px;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        top: 0;
+    }
+
+    &-body-content {
+        margin: 45px 0;
+    }
+
+    &-banner {
+        margin: 0;
+        float: left;
+        cursor: default;
+    }
+
+    &-widgets {
+        float: right;
+
+        &-logout {
+            vertical-align: sub;
+            cursor: pointer;
+        }
+    }
+
+    &-icon {
+        float: left;
+        width: 35px;
+        height: 35px;
+        margin-right: 20px;
+    }
+}

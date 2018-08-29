@@ -1,0 +1,77 @@
+.k {
+    &-container {
+        padding: 20px;
+        @media #{$large-up} {
+            margin-left: 250px;
+        }
+    }
+
+    &-info-grid {
+        margin-bottom: 20px;
+
+        @media #{$medium-only} {
+            padding-right: 20px;
+    
+            &:nth-child(2n) {
+                padding-right: 0;
+            }
+        }
+        @media #{$large-up} {
+            padding-right: 20px;
+
+            &:nth-child(3n) {
+                padding-right: 0;
+            }
+        }
+    }
+
+    &-overview {
+        &-content {
+            margin-bottom: 30px;
+        }
+
+        &-bounty {
+            @media #{$large-up} {
+                text-align: right;
+            }
+
+            &-label {
+                vertical-align: text-top;
+                font-weight: bold;
+            }
+
+            img {
+                @media #{$large-up} {
+                    width: 20px;
+                    height: 50%;
+                }
+            }
+
+            .k-bounty {
+                vertical-align: middle;
+                font-size: 30px;           
+                margin: 0 10px;
+                color: #37baa8;
+            }
+        }
+
+        &-experience {
+            @media #{$medium-up} {
+                padding: 0 20px 0 0;
+            }
+    
+            &-level-label {
+                font-weight: bold;
+            }
+    
+            &-current {
+                text-align: center;
+            }
+    
+            &-percent {
+                text-align: right;
+            }
+        }
+    }
+}
+

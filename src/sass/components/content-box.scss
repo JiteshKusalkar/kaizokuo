@@ -1,0 +1,36 @@
+.k {
+    &-content-box {
+        display: flex;
+        background-color: $white;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+        &-icon {
+            background-color: $shamrock;
+            img {
+                width: 70px;
+                margin-top: 0;
+                padding: 0 16px;
+                height: 100%;
+            }
+        }
+
+        &-info {
+            padding: 20px;
+
+            p {
+                margin: 0;
+                line-height: 20px;
+                font-weight: bold;
+            }
+
+            &-label {
+                font-size: 14px;
+                color: $bright-turquoise;
+            }
+
+            &-value {
+                font-size: 25px;
+            }
+        }
+    }
+}

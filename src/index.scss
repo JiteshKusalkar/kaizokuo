@@ -1,0 +1,40 @@
+@import '~foundation-sites/scss/foundation';
+@include foundation-everything;
+@import './sass/config';
+
+@font-face {
+  font-family: 'HELLDORA';
+  src: url('./fonts/HELLDORA.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'BlackHawk';
+  src: url('./fonts/BlackHawk.otf');
+}
+
+@font-face {
+  font-family: 'SerialPublication';
+  src: url('./fonts/SerialPublication.ttf');
+}
+
+@font-face {
+  font-family: 'Barrelhouse';
+  src: url('./fonts/Barrelhouse.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $solitude;
+}
+
+.k-header {
+  font-family: 'SerialPublication', sans-serif;
+  line-height: 35px;
+  letter-spacing: 5px;
+}
+
+.k-bounty {
+  font-family: 'Dosis', sans-serif;
+}

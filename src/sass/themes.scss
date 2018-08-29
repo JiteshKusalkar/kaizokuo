@@ -1,0 +1,26 @@
+.default {
+    .k {
+        &-title-bar {
+            background-color: $white-smoke;
+            box-shadow: 1px 1px 1px rgba(0,0,0,0.3)
+        }
+
+        &-off-canvas {
+            background-color: $british-racing-green;
+            color: $white;
+
+            &-menu-active {
+                background-color: $bright-turquoise;
+            }
+        }
+
+        &-progress {
+            background-color: $white;
+            border-color: $lochmara;
+
+            &-meter {
+                background-color: $lochmara;
+            }
+        }
+    }
+}
